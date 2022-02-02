@@ -1,0 +1,43 @@
+$margin-top: 10px;
+
+.cardTemplate {
+  background-color: white;
+  border-radius: 10px;
+  padding-top: 0.7rem;
+  padding-bottom: 1rem;
+  margin-top: $margin-top;
+}
+
+body {
+  background-color: #ede7f6;
+  width: 47%;
+  margin-left: 30%;
+  margin-top: 1rem;
+  font-family: sans-serif;
+  .body--coreSheet {
+    @extend.cardTemplate;
+    border-top: 12px solid rgb(9, 95, 181);
+    .body--coreSheet--header {
+      align-content: flex-start;
+      font-size: 35px;
+      font-weight: 200;
+      margin-left: 20px;
+    }
+    .body--coreSheet--Email {
+      display: flex;
+      justify-content: space-between;
+      margin: 4px;
+      padding: 1%;
+      padding-bottom: 5px;
+      margin-right: 20px;
+    }
+  }
+  #body--coreSheet--Email--reqired {
+    font-size: 18px;
+    font-weight: 100;
+    margin: 3px;
+    padding-left: 1rem;
+    padding-top: 10px;
+    color: rgb(252, 87, 87);
+  }
+}

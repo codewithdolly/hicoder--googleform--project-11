@@ -1,0 +1,26 @@
+
+
+.formBody{
+    .formBody--Submit{
+        display: flex;
+        margin: 1rem;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .formBody--info{
+        color: silver;
+    }
+    .formBody--info2{
+        font-size: 14px;
+        text-align: center;
+        color: rgb(172, 170, 170);
+    }
+    .formBody--info3{
+        font-size: 22px;
+        text-align: center;
+        color: rgb(172, 170, 170);
+    }
+    .formBody--info4{
+        color: silver;
+    }
+}
